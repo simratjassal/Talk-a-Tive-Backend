@@ -53,7 +53,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://talk-a-tive-backend-5s0y.onrender.com/",
     // credentials: true,
   },
 });
